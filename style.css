@@ -161,6 +161,67 @@ body {
   font-size: 14px;
 }
 
+.s1111 {
+  padding: 80px 0;
+  background-color: #fafafa;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.s1111 .h2222 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.s1111 .h2222 .t3333 {
+  font-size: 40px;
+  color: #252b42;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.s1111 .h2222 .d4444 {
+  font-size: 14px;
+  color: #737373;
+  line-height: 1.4;
+}
+.s1111 .w5555 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1050px;
+}
+.s1111 .c6666 {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  padding: 30px 35px 35px 35px;
+  width: 320px;
+  box-sizing: border-box;
+}
+.s1111 .c6666 .r7777 {
+  color: #f3cd03;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.s1111 .c6666 .r7777 .e8888 {
+  color: #e8e8e8;
+}
+.s1111 .c6666 .m9999 {
+  font-size: 14px;
+  color: #737373;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.s1111 .c6666 .u1010 .i2020 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (max-width: 510px) {
   .a {
     flex-direction: column;
