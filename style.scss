@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: transparent;
+  background-color: gray;
+
+  .b {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .c {
+    a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  .d {
+    background: #2a9df4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}
+
+.e {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('https://www.shutterstock.com/image-vector/cartoon-illustration-doctor-patient-sitting-600nw-2741804967.jpg') center/cover no-repeat;
+  min-height: 100vh;
+
+  .f {
+    color: #fff;
+    max-width: 500px;
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .g {
+      display: flex;
+      gap: 10px;
+
+      .h {
+        background: #2a9df4;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+      }
+
+      .i {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .j {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    input, select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .k {
+      background: #2a9df4;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+}
+.lm {
+  padding: 80px;
+  background: #f2f2f2;
+  text-align: center;
+
+  .lt {
+    max-width: 600px;
+    margin: 0 auto 50px;
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #777;
+    }
+  }
+
+  .lc {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .bx {
+    width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #D9EDFF;
+
+    .bh {
+      background:#D9EDFF;
+      padding: 20px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+
+      .bi {
+        background: #fff;
+        color: #7eaad1;
+        border-radius: 50%;
+        width: 72px;
+        height: 72px;
+      }
+    }
+
+    .bd {
+      background: #fff;
+      padding: 20px;
+      text-align: left;
+
+      ul {
+        margin-bottom: 10px;
+
+        li {
+          margin-bottom: 5px;
+          font-size: 14px;
+        }
+      }
+
+      a {
+        color: #2a9df4;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 510px) {
+
+  .a {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+
+    .c {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      a {
+        margin: 5px 10px;
+      }
+    }
+
+    .d {
+      width: 100%;
+    }
+  }
+
+  .e {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+
+    .f {
+      max-width: 100%;
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .g {
+        flex-direction: column;
+
+        .h, .i {
+          width: 100%;
+        }
+      }
+    }
+
+    .j {
+      width: 100%;
+      margin-top: 30px;
+    }
+  }
+
+  .lm {
+    padding: 40px 20px;
+
+    .lc {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .bx {
+      width: 100%;
+      max-width: 320px;
+    }
+
+    .lt h2 {
+      font-size: 24px;
+    }
+  }
+
+}
