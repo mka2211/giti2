@@ -484,4 +484,101 @@ body {
     width: 100%;
     box-sizing: border-box;
   }
+}
+
+.a100000000001 {
+  font-family: sans-serif;
+}
+.a100000000001 .b200000000002 {
+  background-color: #252b42;
+  padding: 80px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.a100000000001 .b200000000002 .c300000000003 {
+  max-width: 450px;
+}
+.a100000000001 .b200000000002 .c300000000003 .d400000000004 {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.a100000000001 .b200000000002 .c300000000003 .e500000000005 {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.a100000000001 .b200000000002 .f600000000006 {
+  display: flex;
+}
+.a100000000001 .b200000000002 .f600000000006 .g700000000007 {
+  padding: 15px 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+  outline: none;
+}
+.a100000000001 .b200000000002 .f600000000006 .h800000000008 {
+  background-color: #23a6f0;
+  color: #ffffff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.a100000000001 .i900000000009 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10%;
+  background-color: #ffffff;
+}
+.a100000000001 .i900000000009 .j110000000001 {
+  flex: 1;
+}
+.a100000000001 .i900000000009 .j110000000001 .k120000000001 {
+  font-size: 16px;
+  color: #252b42;
+  margin-bottom: 20px;
+}
+.a100000000001 .i900000000009 .j110000000001 .l130000000001 {
+  font-size: 14px;
+  color: #737373;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+.a100000000001 .i900000000009 .j110000000001 .m140000000001 {
+  display: flex;
+  gap: 15px;
+}
+.a100000000001 .i900000000009 .j110000000001 .m140000000001 a {
+  color: #23a6f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+.a100000000001 .i900000000009 .j110000000001 .q180000000001 {
+  list-style: none;
+  padding: 0;
+}
+.a100000000001 .i900000000009 .j110000000001 .q180000000001 li {
+  margin-bottom: 10px;
+}
+.a100000000001 .i900000000009 .j110000000001 .q180000000001 li .r190000000001 {
+  text-decoration: none;
+  color: #737373;
+  font-size: 14px;
+  font-weight: 600;
+}
+.a100000000001 .i900000000009 .j110000000001 .q180000000001 li .r190000000001:hover {
+  color: #23a6f0;
+}
+.a100000000001 .s200000000001 {
+  background-color: #fafafa;
+  padding: 25px 10%;
+  text-align: center;
+}
+.a100000000001 .s200000000001 .t210000000001 {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

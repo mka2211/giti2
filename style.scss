@@ -581,3 +581,123 @@ body {
     }
   }
 }
+$u220000000001: #252b42;
+$v230000000001: #23a6f0;
+$w240000000001: #ffffff;
+$x250000000001: #737373;
+
+.a100000000001 {
+  font-family: sans-serif;
+  
+  .b200000000002 {
+    background-color: $u220000000001;
+    padding: 80px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .c300000000003 {
+      max-width: 450px;
+      
+      .d400000000004 {
+        color: $w240000000001;
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+
+      .e500000000005 {
+        color: $w240000000001;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+
+    .f600000000006 {
+      display: flex;
+
+      .g700000000007 {
+        padding: 15px 20px;
+        border: 1px solid #e6e6e6;
+        border-radius: 5px 0 0 5px;
+        width: 300px;
+        outline: none;
+      }
+
+      .h800000000008 {
+        background-color: $v230000000001;
+        color: $w240000000001;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .i900000000009 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background-color: $w240000000001;
+
+    .j110000000001 {
+      flex: 1;
+
+      .k120000000001 {
+        font-size: 16px;
+        color: $u220000000001;
+        margin-bottom: 20px;
+      }
+
+      .l130000000001 {
+        font-size: 14px;
+        color: $x250000000001;
+        line-height: 1.4;
+        margin-bottom: 15px;
+      }
+
+      .m140000000001 {
+        display: flex;
+        gap: 15px;
+
+        a {
+          color: $v230000000001;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+
+      .q180000000001 {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 10px;
+
+          .r190000000001 {
+            text-decoration: none;
+            color: $x250000000001;
+            font-size: 14px;
+            font-weight: 600;
+
+            &:hover {
+              color: $v230000000001;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .s200000000001 {
+    background-color: #fafafa;
+    padding: 25px 10%;
+    text-align: center;
+
+    .t210000000001 {
+      color: $x250000000001;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
