@@ -2,6 +2,12 @@ $c-text: #737373;
 $c-title: #252b42;
 $c-star: #f3cd03;
 $font: 'Arial', sans-serif;
+$c-bg: #fafafa;
+$c-card: #ffffff;
+$c-title: #252b42;
+$c-text: #737373;
+$c-accent: #23a6f0;
+$font: 'Montserrat', sans-serif;
 * {
   margin: 0;
   padding: 0;
@@ -257,6 +263,83 @@ body {
         height: 50px;
         border-radius: 50%;
         object-fit: cover;
+      }
+    }
+  }
+}
+
+
+.s10000001 {
+  background-color: $c-bg;
+  padding: 80px 20px;
+  font-family: $font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .h20000002 {
+    text-align: center;
+    margin-bottom: 80px;
+
+    .t30000003 {
+      font-size: 40px;
+      font-weight: 700;
+      color: $c-title;
+      margin-bottom: 15px;
+    }
+
+    .p40000004 {
+      font-size: 14px;
+      color: $c-text;
+      line-height: 1.4;
+      max-width: 470px;
+      margin: 0 auto;
+    }
+  }
+
+  .g50000005 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1050px;
+    width: 100%;
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .c60000006 {
+    background-color: $c-card;
+    padding: 25px;
+    border-radius: 9px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    .i70000007 {
+      margin-top: 5px;
+      flex-shrink: 0;
+    }
+
+    .w80000008 {
+      .k90000009 {
+        font-size: 16px;
+        font-weight: 700;
+        color: $c-title;
+        margin-bottom: 10px;
+        line-height: 1.5;
+      }
+
+      .m10000010 {
+        font-size: 14px;
+        color: $c-text;
+        line-height: 1.6;
+        font-weight: 500;
       }
     }
   }
